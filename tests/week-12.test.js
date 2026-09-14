@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'12',dir:'mes-03-integracion/semana-12-proyecto-individual',patterns:[{name:'Frontend React',regex:/react/i},{name:'Backend/API',regex:/nest|node|api/i},{name:'PostgreSQL',regex:/postgres/i},{name:'Testing',regex:/test|spec|vitest|jest/i},{name:'Documentación',regex:/README|Proyecto|Project/i}]});

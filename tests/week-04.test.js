@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'04',dir:'mes-01-frontend/semana-04-testing-frontend',patterns:[{name:'Tiene tests',regex:/describe\s*\(|test\s*\(|it\s*\(/},{name:'Tiene expectativas',regex:/expect\s*\(/},{name:'Prueba interacción o evento',regex:/fireEvent|userEvent|click|change/i}]});

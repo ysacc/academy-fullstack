@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'03',dir:'mes-01-frontend/semana-03-routing-apis',patterns:[{name:'Routing',regex:/Route|createBrowserRouter|RouterProvider/},{name:'Parámetro de ruta',regex:/useParams|:\w+/},{name:'Consumo API',regex:/fetch\s*\(|axios|ky\s*\(/},{name:'Estados remotos',regex:/loading|error|empty/i}]});

@@ -1,0 +1,3 @@
+-- TODO Semana 6
+-- Diseña las tablas necesarias para persistir el recurso principal.
+-- Incluye PK, restricciones y al menos una relación cuando tenga sentido.

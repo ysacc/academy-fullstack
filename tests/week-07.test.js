@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'07',dir:'mes-02-backend/semana-07-rest-validacion-errores',patterns:[{name:'Validación',regex:/IsString|IsEmail|IsInt|ValidationPipe|class-validator/i},{name:'Not found',regex:/NotFoundException|404/},{name:'Errores HTTP',regex:/HttpException|BadRequestException|ConflictException|throw\s+new/i}]});

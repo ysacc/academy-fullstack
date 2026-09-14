@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'06',dir:'mes-02-backend/semana-06-postgresql-persistencia',patterns:[{name:'Modelo persistente',regex:/CREATE\s+TABLE|@Entity|model\s+\w+\s*\{/i},{name:'Clave primaria',regex:/PRIMARY\s+KEY|@Primary|@id/i},{name:'Restricción o relación',regex:/FOREIGN\s+KEY|REFERENCES|@ManyTo|@OneTo|@relation|UNIQUE/i}]});

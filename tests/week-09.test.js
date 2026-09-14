@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'09',dir:'mes-03-integracion/semana-09-integracion-fullstack',patterns:[{name:'Cliente HTTP',regex:/fetch\s*\(|axios|ky\s*\(/},{name:'Config por entorno',regex:/import\.meta\.env|process\.env|NEXT_PUBLIC_|VITE_/},{name:'Manejo de error',regex:/catch\s*\(|error/i}]});

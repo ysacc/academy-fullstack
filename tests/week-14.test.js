@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'14',dir:'mes-04-proyecto-grupal/semana-14-desarrollo-colaborativo',patterns:[{name:'Referencia a ticket',regex:/ticket|issue|US-\d+/i},{name:'PR/review',regex:/pull\s*request|PR|review/i},{name:'Cómo probar',regex:/cómo\s+probar|how\s+to\s+test/i}]});

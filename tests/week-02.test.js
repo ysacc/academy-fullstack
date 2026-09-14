@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'02',dir:'mes-01-frontend/semana-02-estado-formularios',patterns:[{name:'Formulario presente',regex:/<form|onSubmit/},{name:'Estado de formulario',regex:/useState\s*\(/},{name:'Manejo de cambio',regex:/onChange/},{name:'Validación o errores',regex:/error|errors|valid/i}]});

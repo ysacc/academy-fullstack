@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'08',dir:'mes-02-backend/semana-08-auth-roles',patterns:[{name:'Hash password',regex:/bcrypt|argon2|hash\s*\(/i},{name:'Token o sesión',regex:/jwt|token|session/i},{name:'Guard/autorización',regex:/Guard|CanActivate|Roles|role/i},{name:'Variables de entorno',regex:/process\.env|ConfigService/}]});

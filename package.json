@@ -1,0 +1,23 @@
+{
+  "name": "academy-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:week01": "node tests/week-01.test.js",
+    "test:week02": "node tests/week-02.test.js",
+    "test:week03": "node tests/week-03.test.js",
+    "test:week04": "node tests/week-04.test.js",
+    "test:week05": "node tests/week-05.test.js",
+    "test:week06": "node tests/week-06.test.js",
+    "test:week07": "node tests/week-07.test.js",
+    "test:week08": "node tests/week-08.test.js",
+    "test:week09": "node tests/week-09.test.js",
+    "test:week10": "node tests/week-10.test.js",
+    "test:week11": "node tests/week-11.test.js",
+    "test:week12": "node tests/week-12.test.js",
+    "test:week13": "node tests/week-13.test.js",
+    "test:week14": "node tests/week-14.test.js",
+    "test:week15": "node tests/week-15.test.js",
+    "test:week16": "node tests/week-16.test.js"
+  }
+}

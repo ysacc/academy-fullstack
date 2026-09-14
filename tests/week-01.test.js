@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'01',dir:'mes-01-frontend/semana-01-react-typescript',patterns:[{name:'Usa TypeScript',regex:/interface\s+|type\s+\w+\s*=/},{name:'Tiene componentes React',regex:/function\s+[A-Z]\w*|const\s+[A-Z]\w*\s*=.*=>/},{name:'Usa state',regex:/useState\s*\(/}]});

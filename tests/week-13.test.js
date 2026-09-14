@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'13',dir:'mes-04-proyecto-grupal/semana-13-backlog-planning',patterns:[{name:'Backlog',regex:/backlog|historia|story/i},{name:'Criterios de aceptación',regex:/criterios|acceptance/i},{name:'Sprint Goal',regex:/sprint\s+goal/i},{name:'Definition of Done',regex:/definition\s+of\s+done|DoD/i}]});

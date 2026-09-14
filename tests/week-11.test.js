@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'11',dir:'mes-03-integracion/semana-11-docker-cicd-deploy',requiredFiles:['Dockerfile'],patterns:[{name:'Imagen base',regex:/FROM\s+\S+/i},{name:'WORKDIR',regex:/WORKDIR\s+/i},{name:'Comando de arranque',regex:/CMD\s+|ENTRYPOINT\s+/i}]});

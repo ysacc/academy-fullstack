@@ -1,0 +1,1 @@
+const { runWeek } = require('./helpers'); runWeek({week:'05',dir:'mes-02-backend/semana-05-node-nest',patterns:[{name:'Nest controller',regex:/@Controller\s*\(/},{name:'Service',regex:/@Injectable\s*\(/},{name:'Module',regex:/@Module\s*\(/},{name:'Endpoint GET/POST',regex:/@(Get|Post)\s*\(/}]});
